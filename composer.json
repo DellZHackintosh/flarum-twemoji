@@ -1,0 +1,37 @@
+{
+    "name": "DaleZ/flarum-twemoji",
+    "description": "Convert text and unicode emoji into Twemoji.",
+    "type": "flarum-extension",
+    "keywords": [
+        "formatting"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/DellZHackintosh/flarum-twemoji/issues",
+        "source": "https://github.com/DellZHackintosh/flarum-twemoji"
+    },
+    "require": {
+        "flarum/core": "^1.4"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Twemoji",
+            "category": "feature",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#FECC4D"
+            }
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../*/*"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
