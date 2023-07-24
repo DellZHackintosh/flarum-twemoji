@@ -1,5 +1,5 @@
 {
-    "name": "DaleZ/flarum-twemoji",
+    "name": "dalez/flarum-twemoji",
     "description": "Convert text and unicode emoji into Twemoji.",
     "type": "flarum-extension",
     "keywords": [

@@ -1,7 +1,7 @@
 import app from 'flarum/app';
 
-app.initializers.add('DaleZ-twemoji', () => {
-    app.extensionData.for('DaleZ-twemoji')
+app.initializers.add('dalez-twemoji', () => {
+    app.extensionData.for('dalez-twemoji')
     .registerSetting(
         {
             setting: 'flarum-twemoji.base',
